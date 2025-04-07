@@ -1,7 +1,50 @@
+/* CSS Custom Properties */
+:root {
+  --primary-color: #3699ff;
+  --secondary-color: #2d3446;
+  --background-color: #1a1f2c;
+  --text-color: #ffffff;
+  --border-radius: 20px;
+  --box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  --transition-speed: 0.2s;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --card-bg: #2d3446;
+  --border-color: #3d4254;
+  --darker-bg: #1a1f2c;
+  --input-bg: #2d3446;
+  --primary-hover: #2b7de9;
+  --danger-color: #f64e60;
+}
+
 /* Global styles */
 body {
-  background-color: #f8f9fa;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1f2c !important;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for the entire page */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1f2c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d3446;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3699ff;
 }
 
 /* Custom styles for task cards */
